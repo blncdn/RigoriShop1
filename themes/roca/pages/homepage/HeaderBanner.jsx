@@ -4,10 +4,7 @@ import "./HeaderBanner.scss";
 import React,{ useEffect } from "react";
 import Slider from "react-slick";
 
-import classNames from "classnames";
-import {
-  HideOn,
-} from "react-hide-on-scroll";
+
 
 
 export default function Layout() {
@@ -52,22 +49,22 @@ export default function Layout() {
           prevArrow: <SamplePrevArrow />
         };
      
-    //    useEffect(() => {
-    //     $(window).scroll(function() {
-    //       if ($(this).scrollTop()>310)
-    //        {
-    //           $('.header-slider').fadeOut(10);
-    //        }
-    //       else
-    //        {
-    //         $('.header-slider').show();
-    //        }
-    //    });
-    // })
+       useEffect(() => {
+        $(window).scroll(function() {
+          if ($(this).scrollTop()>310)
+           {
+              $('.header-slider').fadeOut(10);
+           }
+          else
+           {
+            $('.header-slider').show();
+           }
+       });
+    })
 
         return (
             <>     
-            <HideOn height={300}>
+      
 
              <div id="header-slider" className="header-slider">    
 
@@ -78,7 +75,7 @@ export default function Layout() {
             </Slider>
          
             </div>
-            </HideOn>
+   
               </>
               
 );              
