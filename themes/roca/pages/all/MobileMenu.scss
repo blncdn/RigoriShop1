@@ -1,0 +1,166 @@
+@import "node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+   .shop-text-logo-name{
+      font-weight: 400;
+      font-family: 'Cinzel', serif;
+      // font-family: 'ELEGANT', sans-serif;
+      margin-top: -13px;                             
+      letter-spacing: 0.04em;
+    }
+.main-menu-mobile {
+    width: 20px;
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+    position: relative;
+    .menu-icon {
+      svg {
+        width: 2.5rem;
+        height: 2.5rem;
+        stroke-width: 1px;
+        path{
+            stroke-width: 1.5px;
+        }
+      } 
+    }
+
+ 
+
+    .nav {
+      transition: all 0.3s ease-in;
+      position: absolute;
+      top: 100%;
+      right: -2.9rem;
+      padding: 3.5rem;
+      width: 100vw;
+      margin-top: 0.45rem;
+      background-color: rgb(255, 255, 255);
+      z-index: 1000;
+      opacity: 0;
+      visibility: hidden;
+      ul{
+        transform: translate(-50%, -50%);
+      }
+
+      &.show {
+        opacity: 1;
+        visibility: visible;
+       
+        ul {
+          transform: translate(-50%, -50%);
+        }
+      }
+      .nav-item {
+        padding: 1.5rem 0;
+        border-bottom: 1px solid var(--border);
+        &:first {
+          padding-top: 0;
+        }
+        &.last {
+          padding-bottom: 0;
+          border-bottom: none;
+        }
+        a {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  .icon-wrapper .self-center svg path {
+    stroke-width: 1.5px;
+}
+div.icon-wrapper{
+  padding-right: 4px;
+}
+
+div.hamburger-react{
+  color: #3e3e3e;
+  left: -12px;
+}
+.hamburger-react div{
+  height: 1px;
+}
+
+a.menu-icon{
+  width: 25px;
+}
+
+  .icon-wrapper{
+
+    .search-box{
+      color: #3a3a3a;
+        svg{
+            width: 2.5rem;
+            height: 2.5rem;
+            color: #3a3a3a;
+            path{
+        stroke-width: 1.7px;
+            }
+      }
+    }
+    .mini-cart-wrapper{
+      color: #3a3a3a;
+        svg{
+            width: 2.5rem;
+            height: 2.5rem;
+            color: #3a3a3a;
+            path{
+        stroke-width: 1.5px;
+            }
+      }
+    }
+    .self-center{
+      color: #3a3a3a;
+        svg{
+            width: 2.5rem;
+            height: 2.5rem;
+            color: #3a3a3a;
+            path{
+        stroke-width: 1.5px;
+            }
+      }
+    }
+  }
+
+
+
+
+
+  // .nav{
+  //   z-index: 1000;
+  //   ul {
+  //    transition: all 0.8s ease-in;
+   
+  //     transform: translate(-50%, -80%);
+    
+  //     li {
+  //       text-align: center;
+  //       padding: 10px;
+      
+  //       a {
+  //         color: #fff;
+  //         text-decoration: none;
+  //       }
+  //     }
+  //   }
+  // }
+  
+  // .nav {
+  //   transition: all 0.8s ease-in;
+  //   position: absolute;
+  //   background: orange;
+  //   top: 0;
+  //   left: 22.8rem;
+  //   width: 100%;
+  //   height: 100%;
+  //   opacity: 0;
+  //   visibility: hidden;
+    
+  //   &.show {
+  //     opacity: 1;
+  //     visibility: visible;
+     
+  //     ul {
+  //       transform: translate(-50%, -50%);
+  //     }
+  //   }
+  // }

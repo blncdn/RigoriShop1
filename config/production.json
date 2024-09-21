@@ -1,0 +1,112 @@
+{
+  "system": {
+    "file_storage": "azure",
+      "theme": "roca",
+       
+      "extensions": [
+        {
+          "name": "resend",
+          "resolve": "node_modules/@evershop/resend",
+          "enabled": true,
+          "priority": 10
+        },
+        {
+          "name": "roca",
+          "resolve": "extensions/roca",
+          "enabled": true,
+          "priority": 10
+        },
+        {
+          "name": "azure_file_storage",
+          "resolve": "node_modules/@evershop/azure_file_storage",
+          "enabled": true,
+          "priority": 10
+        }
+      ]
+      
+  },
+   "shop": {   
+    "language": "de",
+    "currency": "EUR",
+    "weightUnit": "g"
+
+  },
+  "catalog": {
+    "product": {
+        "image": {
+            "thumbnail": {
+                "width": 70,
+                "height": 70
+            },
+            "listing": {
+                "width": 400,
+                "height": 400
+            },
+            "single": {
+                "width": 800,
+                "height": 800
+            }
+        }
+    },
+    "showOutOfStockProduct": true
+  },
+  "pricing":{
+    "tax":{
+      "rounding": "round",
+      "precision": 2,
+      "round_level": "unit",
+      "pricing.tax.price_including_tax": true
+
+    }
+  },
+  "themeConfig": {
+    "logo": {
+        "alt": "R",
+   
+        "width": 100,
+        "height": 100
+    },
+    "headTags": {
+      "links": [
+      {
+       "href":"https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css",
+        "rel":"stylesheet" 
+      }
+      ],
+      "metas": [
+        {
+          "name": "viewport",
+          "content": "width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no"
+         
+        },
+        {
+          "name": "theme-color",
+          "content": "#000000"
+        },
+        {
+          "name": "description",
+          "content": "Modern, elegant, luxuriös."
+        }
+      ],
+        "scripts": [
+      {
+        "src":"https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"
+      },
+      {
+        "src":"../node_modules/flowbite/dist/flowbite.min.js"
+      }
+     
+        ]
+    },
+    "copyRight": "© 2024 RIGORI. All Rights Reserved."
+}
+
+
+}
+
+
+
+
+
+
+

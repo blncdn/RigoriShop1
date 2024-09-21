@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.font-bold {
+    font-weight: 600;
+  }
+  .font-semibold{
+    font-weight: 500;
+  }
+  .gap-4 {
+    gap: 4.5rem;
+}
+.pt-12 {
+  padding-top: 9rem;
+}
+// .relative.header-image-slider{
+//   position: sticky;
+//   top: 0;
+// }

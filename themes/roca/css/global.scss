@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/elegant-2');
+html body {
+  font-weight: 400;
+  font-family: 'Cinzel', serif;
+  // font-family: 'ELEGANT', sans-serif;
+                              
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  background-color: #ffffff;
+  z-index: 1;
+
+}
+@media only screen and (max-width: 768px){
+  html body {
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    // font-family: 'ELEGANT', sans-serif;
+                              
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    // margin-top: 11.8rem;
+  }
+}
+a.text-interactive{
+  font-weight: 300;
+  font-family: 'Cinzel', serif;
+  // font-family: 'ELEGANT', sans-serif;
+                                                
+}
+.product-thumbnail-listing {
+  background-color: #ffffff;
+  color: #3131;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.product-image.product-single-page-image{
+  margin-top: 15px;
+}
+@media screen and (max-width: 1115px) {
+
+  .grid.grid-cols-2.gap-3{
+    display: block;
+  }
+ 
+}
+.grid {
+  display: grid;
+}
+
+.text-center.mb-3{
+  margin-top: 5rem;
+}
+
+.page-width.main-info-text{
+  margin-top: 7rem;
+}
+.product-name.font-bold{
+  font-weight: 400;
+  font-family: 'Cinzel', serif;
+    letter-spacing: 0.02em;
+  // font-family: 'ELEGANT', sans-serif;
+                                   
+}
+@media (min-width: 500px) and (max-width: 800px) {
+  .product-name.font-bold {
+      font-size: 1rem;
+  }}
+h1.product-single-name{
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  // font-family: 'ELEGANT', sans-serif;
+   margin-top: 0.3rem;                                               
+  font-weight: 500;
+  font-size: 2.38rem;
+  letter-spacing: 0.06em;
+}
+h4.product-single-price{
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin-top: 2.1rem;
+  margin-bottom: 8px;
+}
+// div.product-single-sku{
+//   text-align: center;
+// }
+.product-description{
+  letter-spacing: 0.05em;
+  // margin-top: 1rem;
+ 
+}
+.product-description p{
+
+  color: #2a2a2a;
+  strong{
+    color: #2a2a2a;
+  }
+}
+// .specification{
+//   text-align: center;
+// }
+.add-to-cart.mt-2{
+  align-items: center;
+  margin-top: 2rem;
+
+
+}
+
+
+.category__general .category__info{
+  color: #414141;
+  letter-spacing: 0.2em;
+  .category__name{
+    font-size: 3.7rem;
+    letter-spacing: 0.1em;
+  }
+}
+.pt-12 {
+  padding-top: 5rem;
+}
+// Thank you page
+div.mb-075 h3{
+  font-size: 1.8rem;
+  @media screen and (max-width: 767px) {
+    font-size: 2.31rem;
+  }
+}
+@media (min-width: 768px) {
+  .checkout-summary.hidden.md\:block{
+    margin-top: 15rem;
+    height: auto;
+    padding-top: 0.4rem;
+    padding-bottom: 0.3rem;
+  }
+}
+
+// .page-width.my-2{
+//   span{
+//     font-size: 1.3rem;
+//   }
+// }
+
+.Toastify{
+  background-color: transparent;
+}
+.form-field-container:first-child {
+  margin-top: 0;
+  padding-left: 10px;
+}
+
+
+.product-filter-tool .filter-heading{
+  margin-top: 8rem;
+}
+

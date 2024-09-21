@@ -1,0 +1,19 @@
+.logo {
+    display: flex;
+    color: black;
+    a {
+      align-self: center;
+      color: var(--primary);
+      padding: 3px;
+      svg {
+        width: 4rem;
+        height: 3rem;
+      }
+    }
+    span{
+      font-size: 2rem;
+      color: black;
+      
+    }
+  }
+  
