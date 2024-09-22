@@ -3,7 +3,7 @@
 import "./HeaderBanner.scss";
 import React,{ useEffect } from "react";
 import Slider from "react-slick";
-
+import $ from "jquery";
 
 
 
