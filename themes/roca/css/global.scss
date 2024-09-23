@@ -45,7 +45,11 @@ a.text-interactive{
   align-items: center;
 }
 
+div.header-slider{
 
+  display: none;
+
+}
 .product-image.product-single-page-image{
   margin-top: 15px;
 }
@@ -59,7 +63,9 @@ a.text-interactive{
 .grid {
   display: grid;
 }
-
+.col-span-1 {
+grid-column: span 0 / span 0; 
+}
 .text-center.mb-3{
   margin-top: 5rem;
 }
