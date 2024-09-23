@@ -4,7 +4,7 @@ const config = require('config');
 
 module.exports = () => {
   const resendConfig = {
-    from: 'info@rocarokana.de',
+    from: 'shop@rigori.de',
     events: {
       order_placed: {
         subject: 'Order Confirmation',
@@ -17,7 +17,7 @@ module.exports = () => {
         templatePath: undefined // This is the path to the email template. Starting from the root of the project.
       },
       customer_registered: {
-        subject: 'Willkommen zu Rocashop',
+        subject: 'Willkommen zu Rigori Shop',
         enabled: true,
         templatePath: "config/emails/welcome.html" // This is the path to the email template. Starting from the root of the project.
       }
