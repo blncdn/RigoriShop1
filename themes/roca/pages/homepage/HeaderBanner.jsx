@@ -49,24 +49,24 @@ export default function Layout() {
           prevArrow: <SamplePrevArrow />
         };
      
-       useEffect(() => {
-        $(window).scroll(function() {
-          if ($(this).scrollTop()>310)
-           {
-              $('.header-slider').fadeOut(10);
-           }
-          else
-           {
-            $('.header-slider').show();
-           }
-       });
-    })
+    //    useEffect(() => {
+    //     $(window).scroll(function() {
+    //       if ($(this).scrollTop()>310)
+    //        {
+    //           $('.header-slider').fadeOut(10);
+    //        }
+    //       else
+    //        {
+    //         $('.header-slider').show();
+    //        }
+    //    });
+    // })
 
         return (
             <>     
       
 
-             <div id="header-slider" className="header-slider">    
+             <div id="header-slider" className="hidden header-slider">    
 
             <Slider {...settings}>
               <img src="https://sun9-76.userapi.com/impg/7C7wgUrK3AGIoi4dJPgbq1Y7FrGXA572hn8-HQ/pIbF_XrVZp4.jpg?size=1280x635&quality=95&sign=3511b54196b2e3d1a5bc978691dbdd60&type=album"/>  
