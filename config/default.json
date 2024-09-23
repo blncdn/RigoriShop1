@@ -1,4 +1,24 @@
 {
+  "resend": {
+    "from": "shop@rigori.de",
+    "events": {
+      "order_placed": {
+        "subject": "Order Confirmation",
+        "enabled": true,
+        "templatePath": "config/emails/order_confirmation.html"
+      },
+      "reset_password": {
+        "subject": "Reset Password",
+        "enabled": true,
+        "templatePath": "config/emails/reset_password.html"
+      },
+      "customer_registered": {
+        "subject": "Welcome to EverShop",
+        "enabled": true,
+        "templatePath": "config/emails/welcome.html"
+      }
+    }
+  },
   "system": {
     "file_storage": "azure",
       "theme": "roca",
@@ -25,6 +45,7 @@
       ]
       
   },
+  
    "shop": {   
     "language": "de",
     "currency": "EUR",
