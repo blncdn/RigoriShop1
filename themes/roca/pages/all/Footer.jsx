@@ -91,7 +91,7 @@ function Footer({ themeConfig: { copyRight } }) {
        </div>
        </div>
           <div class="inline-flex items-center text-center sm:justify-between">       
-            <ul class="flex flex-wrap text-center items-center mb-0 text-base font-medium text-gray-900">
+            <ul class="flex flex-wrap space-x-3 text-center items-center mb-0 text-base font-medium text-gray-900">
                 <li>
                     <a href="/page/AGB" class="hover:underline me-4 md:me-6">AGB</a>
                 </li>

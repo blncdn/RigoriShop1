@@ -171,3 +171,31 @@ div.mb-075 h3{
   margin-top: 8rem;
 }
 
+// LOGIN----------
+.form-field-container:first-child {
+  margin-top: 0;
+  padding-left: 0px;
+}
+
+.login-form {
+  width: 468px;
+  max-width: 80%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 4rem;
+  margin-top: 4rem;
+  -webkit-box-shadow: 6px 12px 60px rgba(0, 0, 0, .2);
+  box-shadow: 6px 12px 60px rgba(0, 0, 0, .2);
+}
+
+// REGISTER---------------
+.register-form {
+  width: 468px;
+  max-width: 80%;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 4rem;
+  margin-top: 4rem;
+  -webkit-box-shadow: 6px 12px 60px rgba(0, 0, 0, .2);
+  box-shadow: 6px 12px 60px rgba(0, 0, 0, .2);
+}
