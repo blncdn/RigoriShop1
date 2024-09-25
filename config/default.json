@@ -1,28 +1,8 @@
 {
-  "resend": {
-    "from": "shop@rigori.de",
-    "events": {
-      "order_placed": {
-        "subject": "Ihre Bestellung",
-        "enabled": true,
-        "templatePath": "config/emails/order_confirmation.html"
-      },
-      "reset_password": {
-        "subject": "Reset Password",
-        "enabled": true,
-        "templatePath": "config/emails/reset_password.html"
-      },
-      "customer_registered": {
-        "subject": "RIGORI",
-        "enabled": true,
-        "templatePath": "config/emails/welcome.html"
-      }
-    }
-  },
+ 
   "system": {
     "file_storage": "azure",
       "theme": "roca",
-       
       "extensions": [
         {
           "name": "resend",
@@ -110,9 +90,28 @@
         ]
     },
     "copyRight": "© 2024 RIGORI. All Rights Reserved."
+},
+
+"resend": {
+  "from": "shop@rigori.de",
+  "events": {
+    "order_placed": {
+      "subject": "Ihre Bestellung",
+      "enabled": true,
+      "templatePath": "config/emails/order_confirmation.html"
+    },
+    "reset_password": {
+      "subject": "Reset Password",
+      "enabled": true,
+      "templatePath": "config/emails/reset_password.html"
+    },
+    "customer_registered": {
+      "subject": "RIGORI",
+      "enabled": true,
+      "templatePath": "config/emails/welcome.html"
+    }
+  }
 }
-
-
 }
 
 
