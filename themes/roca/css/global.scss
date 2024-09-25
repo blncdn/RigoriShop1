@@ -163,9 +163,12 @@ div.mb-075 h3{
 }
 .form-field-container:first-child {
   margin-top: 0;
-  padding-left: 10px;
+  padding-left: 0px;
 }
-
+div.form-field-container.dropdown.null{
+padding-left: 10px;
+padding-right: 10px;
+}
 
 .product-filter-tool .filter-heading{
   margin-top: 8rem;
